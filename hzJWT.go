@@ -14,6 +14,7 @@ import (
 
 type login struct {
 	Username string `form:"username,required" json:"username,required"`
+
 	Password string `form:"password,required" json:"password,required"`
 }
 
