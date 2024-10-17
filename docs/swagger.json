@@ -1,0 +1,34 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/pong": {
+            "get": {
+                "tags": ["wen"],
+                "description": "New endpoint",
+                "responses": {
+                    "200": {
+                        "description": "New response"
+                    }
+                }
+            }
+        },
+        "/ping": {
+            "get": {
+                "description": "测试 Description",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "测试 Summary",
+                "responses": {},
+                "tags": ["wen"]
+            }
+        }
+    },
+
+}
